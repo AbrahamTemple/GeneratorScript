@@ -14,7 +14,7 @@ public abstract class GenBluePrint extends MyScanner{
 }
 ```
 
-## 实体类采取了单例模式的思想
+## 实体类采取了单例模式的设计思想
 
 ``` java
 @Data
