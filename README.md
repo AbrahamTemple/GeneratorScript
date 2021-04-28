@@ -24,9 +24,11 @@ public class GlobalConfigParam implements InstanceParam, Serializable {
 
     private String pathPrefix = System.getProperty("user.dir");
 
-    private String pathSuffix = "/vong-generat/src/main/java";
+    private String childPath = "";
 
-    private String path = getPathPrefix() + getPathSuffix();
+    private String pathSuffix = "/src/main/java";
+
+    private String path = getPathPrefix() + getChildPath() + getPathSuffix();
 
     private String author = "Abraham";
 
