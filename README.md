@@ -14,7 +14,7 @@ public abstract class GenBluePrint extends MyScanner{
 }
 ```
 
-## 实体类采取了单例模式的设计思想
+## 实体类采用了单例模式的设计思想
 
 ``` java
 @Data
@@ -43,4 +43,17 @@ public class GlobalConfigParam implements InstanceParam, Serializable {
 }
 ```
 
+## 多情况设置预处理
 
+``` Bash
+请输入你的子项目名(没有就输入/)：
+vong-socket
+请输入你当前项目的父目录(eg: com.example)：
+com.cloud
+请输入你的当前包名(eg: demo)：
+vongsocket
+请输入目标表名，多个用逗号隔开：
+v_user,v_cover_gallery,v_user_cover,v_gallery,v_cover
+```
+
+![Screenshot](demo.gif)
