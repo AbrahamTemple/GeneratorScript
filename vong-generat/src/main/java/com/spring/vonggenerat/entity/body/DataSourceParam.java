@@ -17,7 +17,7 @@ public class DataSourceParam implements InstanceParam, Serializable {
 
     private volatile static DataSourceParam DSP;
 
-    private String host = "8.135.100.252";
+    private String host = "localhost";
 
     private Integer port = 3306;
 
@@ -27,7 +27,7 @@ public class DataSourceParam implements InstanceParam, Serializable {
 
     private String username = "root";
 
-    private String password = "3626356";
+    private String password = "";
 
     private String url =
             "jdbc:mysql://"+getHost()+":"+getPort()+"/"+getTable()+
